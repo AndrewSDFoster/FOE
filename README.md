@@ -21,12 +21,15 @@ Period only run (should run even if no RV data):
  use fft to calculate quick period from RV data
 
 Full run
- Fits both: 
+ Fits the following: 
   an eccentric sinusoid to the RV data
   the period model
   
  After, it calculates the largest possible false esinw signal from stellar
  tides in the RV data
+
+Rossiter McLaughlin run:
+ fits in transit points for RM stuff
 
 IF TIME:
  fix MCCubed to include parameter namnes and whether or not a parameter is a
